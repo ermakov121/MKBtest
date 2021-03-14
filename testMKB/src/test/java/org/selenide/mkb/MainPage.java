@@ -27,10 +27,6 @@ public class MainPage {
     public void cleanField(SelenideElement element){
         element.shouldBe(enabled).click();
         element.sendKeys(Keys.CONTROL, "A");
-        numberOfCharacters = element.getValue().length();
-        while (numberOfCharacters > 0){
             element.sendKeys(Keys.BACK_SPACE);
-            numberOfCharacters --;
-        }
     }
 }

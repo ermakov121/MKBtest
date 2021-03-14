@@ -2,7 +2,6 @@ package org.selenide.mkb;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.text;
@@ -23,9 +22,9 @@ public class HeadphonesPage extends MainPage{
 
     public void inputPriceInFilter(String priceStart, String priceEnd){
         startPrice.shouldBe(enabled).click();
-        startPrice.sendKeys(Keys.CONTROL, "A");
-        mainPage.cleanField();
-        endPrice.clear();
+        mainPage.cleanField(startPrice);
+        startPrice.setValue(priceStart);
+        mainPage.cleanField(endPrice);
         endPrice.setValue(priceEnd).pressEnter();
     }
 }
