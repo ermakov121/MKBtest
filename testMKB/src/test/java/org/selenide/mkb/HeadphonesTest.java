@@ -18,7 +18,7 @@ public class HeadphonesTest extends HeadphonesPage {
     public void SearchHeadphones() {
         mainPage.openPage();        // открываем главную страницу
         headphones.searchHeadphones();      // ищем наушники в поисковой строке
-        headphones.inputPriceInFilter();    // вводим значение в фильтр цены
+        headphones.inputPriceInFilter("2000", "5000");    // вводим значение в фильтр цены
         headphonesIcons.shouldHaveSize(1);     // проверяем, что отобразились только одни наушники
     }
 }

@@ -2,6 +2,7 @@ package org.selenide.mkb;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.text;
@@ -20,10 +21,11 @@ public class HeadphonesPage extends MainPage{
         $(By.xpath("//a [@class='ref_goods_n_p j-open-full-product-card']")).shouldHave(text("Наушники"));
     }
 
-    public void inputPriceInFilter(){
-        startPrice.shouldBe(enabled).clear();
-        startPrice.setValue("2000");
+    public void inputPriceInFilter(String priceStart, String priceEnd){
+        startPrice.shouldBe(enabled).click();
+        startPrice.sendKeys(Keys.CONTROL, "A");
+        mainPage.cleanField();
         endPrice.clear();
-        endPrice.setValue("5000").pressEnter();
+        endPrice.setValue(priceEnd).pressEnter();
     }
 }

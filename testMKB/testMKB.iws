@@ -248,7 +248,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Android JUnit.BasketTest">
+  <component name="RunManager" selected="Android JUnit.HeadphonesTest">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -310,8 +310,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.BasketTest" />
         <item itemvalue="Android JUnit.HeadphonesTest" />
+        <item itemvalue="Android JUnit.BasketTest" />
       </list>
     </recent_temporary>
   </component>
