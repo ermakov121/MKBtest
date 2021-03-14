@@ -1,4 +1,4 @@
-package org.selenide.mkb;
+package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
-public class HeadphonesPage extends MainPage{
+public class HeadphonesPage{
 
     private SelenideElement startPrice = $(By.xpath("//input[@name='startN']"));
     private SelenideElement endPrice = $(By.xpath("//input[@name='endN']"));
@@ -15,7 +15,7 @@ public class HeadphonesPage extends MainPage{
 
     MainPage mainPage = new MainPage();
 
-    protected void searchHeadphones(){
+    public void searchHeadphones(){
         mainPage.searchBar().setValue("наушники sennheiser hd").pressEnter();
         $(By.xpath("//a [@class='ref_goods_n_p j-open-full-product-card']")).shouldHave(text("Наушники"));
     }

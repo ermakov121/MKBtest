@@ -3,6 +3,8 @@ package org.selenide.mkb;
 import com.codeborne.selenide.ElementsCollection;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import pages.HeadphonesPage;
+import pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.$$;
 
