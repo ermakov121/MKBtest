@@ -7,8 +7,6 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class WorkPage {
 
-    MainPage mainPage = new MainPage();
-
     private SelenideElement workButton = $(By.xpath("//a[contains(.,'Устроиться')]"));
     private SelenideElement lastName = $(By.id("lastName"));
     private SelenideElement firstName = $(By.id("firstName"));
