@@ -1,1 +1,7 @@
-org\selenide\mkb\AppTest.class
+pages\BasketPage.class
+org\selenide\mkb\BasketTest.class
+pages\WorkPage.class
+pages\HeadphonesPage.class
+org\selenide\mkb\HeadphonesTest.class
+org\selenide\mkb\Work.class
+pages\MainPage.class

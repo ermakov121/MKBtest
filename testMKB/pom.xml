@@ -23,12 +23,6 @@
       <version>5.19.0</version>
       <scope>test</scope>
     </dependency>
-      <dependency>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-junit4</artifactId>
-        <version>LATEST_VERSION</version>
-        <scope>test</scope>
-      </dependency>
   </dependencies>
   <build>
     <plugins>
