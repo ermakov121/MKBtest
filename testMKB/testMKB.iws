@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc9c583-4d9e-4e51-b038-c0d98301ba61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/BasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/HeadphonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/HeadphonesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasketPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testMKB.iws" beforeDir="false" afterPath="$PROJECT_DIR$/testMKB.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +258,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Android JUnit.BasketTest">
+  <component name="RunManager" selected="Android JUnit.HeadphonesTest">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -297,6 +301,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Work" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testMKB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.selenide.mkb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.selenide.mkb" />
+      <option name="MAIN_CLASS_NAME" value="org.selenide.mkb.Work" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -316,8 +336,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.BasketTest" />
         <item itemvalue="Android JUnit.HeadphonesTest" />
+        <item itemvalue="Android JUnit.BasketTest" />
+        <item itemvalue="Android JUnit.Work" />
       </list>
     </recent_temporary>
   </component>

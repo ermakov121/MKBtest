@@ -20,10 +20,9 @@ public class BasketPage{
         firstElement.shouldBe(enabled);
     }
 
-    public String addInBasket(){
+    public void addInBasket(){
         firstElement.click();
         buttonInBasket.click();
-        return nameOfProuct.getText();
     }
 
 }

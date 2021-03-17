@@ -15,13 +15,15 @@ public class BasketTest extends BasketPage {
     BasketPage basketPage = new BasketPage();
 
     private SelenideElement productName = $(By.xpath("//span[@class='good-name']"));
+    private SelenideElement productNameInSearch = $(By.xpath("(//span[@class = 'goods-name c-text-sm'])[1]"));
 
 
     @Test
     public void basketTest() {
         mainPage.openPage();        // открываем главную страницу
         basketPage.searchBasket();      // ищем корзину для мусора
-        String name = basketPage.addInBasket();       // добавляем товар в корзину
+        String name = productNameInSearch.getText();
+        basketPage.addInBasket();       // добавляем товар в корзину
         mainPage.goToBasket();      // переходим в корзину
         productName.shouldHave(text(name));     // сравниваем, что названия продуктов совпадают в каталоге и корзине
 
