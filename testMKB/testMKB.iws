@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc9c583-4d9e-4e51-b038-c0d98301ba61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/BasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/HeadphonesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HeadphonesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/HeadphonesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/HeadphonesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/selenide/mkb/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testMKB.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/testMKB.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testMKB.iws" beforeDir="false" afterPath="$PROJECT_DIR$/testMKB.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
